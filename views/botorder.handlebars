@@ -1,0 +1,9 @@
+<h2>Bot Order</h2>
+<p>Order Content: {{orderContent}}</p>
+<form action="/botorder/{{order}}" method="post">
+    <div>
+        <label>Order:</label>
+        <input type="text" name="botorder"/><br/>
+    </div>
+    <div><input type="submit" value="Post"/></div>
+</form>

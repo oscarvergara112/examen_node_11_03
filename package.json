@@ -2,9 +2,24 @@
   "name": "jserverbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "file-type": "^10.9.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "read-chunk": "^3.1.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,8 +30,5 @@
   "bugs": {
     "url": "https://github.com/oscarvergara112/examen_node_11_03/issues"
   },
-  "homepage": "https://github.com/oscarvergara112/examen_node_11_03#readme",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+  "homepage": "https://github.com/oscarvergara112/examen_node_11_03#readme"
 }
